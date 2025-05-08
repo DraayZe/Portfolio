@@ -1,0 +1,146 @@
+{
+  "title": "Portfolio | Lenny Fernet",
+  "description": "Développeur web junior",
+  "navbar": [
+    {
+      "label": "Accueil",
+      "href": "#top"
+    },
+    {
+      "label": "Expérience",
+      "href": "#experience"
+    },
+    {
+      "label": "Projects",
+      "href": "#projects"
+    },
+    {
+      "label": "À propos",
+      "href": "#a-propos"
+    }
+  ],
+  "hero": {
+    "job_availability": "Disponible pour de nouvelles opportunités",
+    "title": "Bonjour, je suis Lenny Fernet!",
+    "job_title": "Développeur web junior",
+    "cta": "Contactez-moi"
+  },
+  "experience": {
+    "title": "Parcours scolaire",
+    "jobs": {
+      "jobs_title": ["BUT MMI", "Baccalauréat général"],
+      "jobs_description": [
+        {
+          "title": "Institut Universitaire de Technologie (IUT)",
+          "time": ["Sep 2023"],
+          "description": "Première année à Dijon (21) et deuxième année à Troyes (10).\nCours de développement web, production graphique et stratégie de communication principalement. Souhaitant se spécialiser dans le développement web."
+        },
+        {
+          "title": "Lycée Camille Claudel, Troyes (10)",
+          "time": ["Sep 2020", "Juin 2023"],
+          "description": "Spécialités mathématiques et sciences économiques et sociales avec l'option mathématiques expertes.\nMention assez bien (12,78 / 20 )"
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "Projets",
+    "projects": [
+      {
+        "title": "LPA Event",
+        "description": "La primer plataforma para conocer los horarios de las terminales de autobuses interlocales del municipio de Estelí, Nicaragua.",
+        "image": "/src/images/projects/esteli-buses-project.jpg",
+        "techs": ["WordPress", "HTML", "CSS", "JavaScript"],
+        "code": "Voir le code",
+        "preview": "Voir le site"
+      },
+      {
+        "title": "Results",
+        "description": "Lorem ipsum dolor sit amet consectetur. Faucibus quis sociis at sagittis egestas sed volutpat. Arcu pellentesque elit volutpat quam. Id dictum sagittis hendrerit diam viverra velit. Blandit id viverra quis lectus faucibus egestas ipsum turpis.",
+        "image": "/src/images/projects/ana-rangel-portafolio.jpg",
+        "techs": ["Vue","HTML", "CSS", "JavaScript"],
+        "code": "Código",
+        "preview": "Vista previa"
+      },
+      {
+        "title": "Vibropolis",
+        "description": "Descubre una herramienta esencial para freelancers y negocios en Nicaragua. Nuestra Calculadora Payoneer Nicaragua te permite calcular de manera precisa y rápida las tarifas y comisiones al recibir pagos internacionales a través de Payoneer. ¡Empieza a usarla hoy y toma el control de tus finanzas!",
+        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
+        "techs": [
+          "Nuxt",
+          "TypeScript",
+          "TailwindCSS"
+        ],
+        "code": "Código",
+        "preview": "Vista previa"
+      },
+      {
+        "title": "Utopia",
+        "description": "Descubre una herramienta esencial para freelancers y negocios en Nicaragua. Nuestra Calculadora Payoneer Nicaragua te permite calcular de manera precisa y rápida las tarifas y comisiones al recibir pagos internacionales a través de Payoneer. ¡Empieza a usarla hoy y toma el control de tus finanzas!",
+        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
+        "techs": [
+          "Symfony",
+          "Twig",
+          "Sass"
+        ],
+        "code": "Código",
+        "preview": "Vista previa"
+      }
+
+    ]
+  },
+  "contributions": {
+    "title": "Contribuciones",
+    "contributions": [
+      {
+        "src": "/src/images/contributions/advanced-periodontics.jpg",
+        "alt": "Advanced Periodontics",
+        "title": "Advanced Periodontics",
+        "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
+        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
+        "repo": "#",
+        "repo_label": "Repositorio",
+        "commits": "#"
+      },
+      {
+        "src": "/src/images/contributions/advanced-periodontics.jpg",
+        "alt": "Advanced Periodontics",
+        "title": "Advanced Periodontics",
+        "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
+        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
+        "repo": "#",
+        "repo_label": "Repositorio",
+        "commits": "#"
+      },
+      {
+        "src": "/src/images/contributions/advanced-periodontics.jpg",
+        "alt": "Advanced Periodontics",
+        "title": "Advanced Periodontics",
+        "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
+        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
+        "repo": "#",
+        "repo_label": "Repositorio",
+        "commits": "#"
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre mí",
+    "subtitle": "Soy mod de Midudev y ManzDev pero más feliz me siento siendo mod de AnaRangel",
+    "description": "Soy un Desarrollador Web Frontend y WordPress con más de 3 años de experiencia, especializado en crear diseños modernos y optimizar el rendimiento web, con un enfoque en tecnologías como HTML 5, CSS 3, JavaScript ES6+ y WordPress. Manejo frameworks como React y Astro, y soy experto en constructores visuales de WordPress, además de tener un fuerte conocimiento técnico en Core Web Vitals, lo que me convierte en un profesional apasionado y altamente cualificado para cualquier proyecto de desarrollo web."
+  },
+  "contact": {
+    "title": "¿Listo para dar vida a tus ideas?",
+    "subtitle": "Puedo impulsar tu proyecto o formar parte de tu equipo"
+  },
+  "footer": {
+    "designed": {
+      "designed_with": "Diseñado con",
+      "designed_by": "por"
+    },
+    "developed": {
+      "developed_with": "Hecho con",
+      "developed_by": "por"
+    }
+  }
+}
