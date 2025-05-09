@@ -121,48 +121,49 @@
     "title": "Compétences",
     "contributions": [
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Langages",
         "title": "Langages",
-        "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
-        "techs": ["HTML", "CSS","Sass", "JavaScript", "TypeScript", "PHP"],
-        "repo": "#",
-        "repo_label": "Repositorio",
-        "commits": "#"
+        "techs": [
+          { "name": "HTML", "link": "https://developer.mozilla.org/fr/docs/Web/HTML" },
+          { "name": "CSS", "link": "https://developer.mozilla.org/fr/docs/Web/CSS" },
+          { "name": "Sass", "link": "https://sass-lang.com/" },
+          { "name": "JavaScript", "link": "https://developer.mozilla.org/fr/docs/Web/JavaScript" },
+          { "name": "TypeScript", "link": "https://www.typescriptlang.org/" },
+          { "name": "PHP", "link": "https://www.php.net/" }
+        ]
       },
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Frameworks",
         "title": "Frameworks",
-        "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
-        "techs": ["VueJS", "Symfony", "Nuxt", "TailwindCSS", "ThreeJS", "Astro" ],
-        "repo": "#",
-        "repo_label": "Repositorio",
-        "commits": "#"
+        "techs": [
+          { "name": "VueJS", "link": "https://vuejs.org/" },
+          { "name": "Symfony", "link": "https://symfony.com/" },
+          { "name": "Nuxt", "link": "https://nuxt.com/" },
+          { "name": "TailwindCSS", "link": "https://tailwindcss.com/" },
+          { "name": "ThreeJS", "link": "https://threejs.org/" },
+          { "name": "Astro", "link": "https://astro.build/" }
+        ]
       },
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Outils",
-        "title": "Outils",
-        "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
-        "techs": ["Wordpress", "Docker", "Figma", "Github", "Office-365", "Adobe"],
-        "repo": "#",
-        "repo_label": "Repositorio",
-        "commits": "#"
+        "title": "Base de données",
+        "techs": [
+          { "name": "MySQL", "link": "https://www.mysql.com/fr/" },
+          { "name": "PhpMyAdmin", "link": "https://www.phpmyadmin.net/" },
+          { "name": "MariaDB", "link": "https://mariadb.org/" }
+        ]
       },
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Outils",
         "title": "Outils",
-        "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
-        "techs": ["Wordpress", "Docker", "Figma", "Github", "Office-365", "Adobe"],
-        "repo": "#",
-        "repo_label": "Repositorio",
-        "commits": "#"
+        "techs": [
+          { "name": "Wordpress", "link": "https://fr.wordpress.org/" },
+          { "name": "Docker", "link": "https://www.docker.com/" },
+          { "name": "Figma", "link": "https://www.figma.com/" },
+          { "name": "Github", "link": "https://github.com/" },
+          { "name": "Office-365", "link": "https://www.microsoft.com/fr-fr/microsoft-365" },
+          { "name": "Adobe", "link": "https://www.adobe.com/fr/" }
+        ]
       }
     ]
   },
-  "about": {
+"about": {
     "title": "À propos de moi",
     "subtitle": "Actuellement à l'IUT de Troyes, je suis à la recherche d'une alternance pour ma dernière année.",
     "description": "Je suis passionné par le développement web et la création de sites internet. Je suis toujours à la recherche de nouveaux défis et d'opportunités pour apprendre et grandir dans ce domaine."

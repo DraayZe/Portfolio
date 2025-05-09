@@ -15,24 +15,12 @@ const { title, contributions } = t('contributions', {
     {
       contributions.map(
         ({
-          src,
-          alt,
           title,
-          description,
           techs,
-          repo,
-          repo_label: repoLabel,
-          commits
         }) => (
           <CardContributions
-            src={src}
-            alt={alt}
             title={title}
-            description={description}
             techs={techs}
-            repo={repo}
-            repoLabel={repoLabel}
-            commits={commits}
           />
         )
       )
@@ -76,7 +64,7 @@ const { title, contributions } = t('contributions', {
       }
 
       @media (width >= 1200px) {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
       }
     }
   }

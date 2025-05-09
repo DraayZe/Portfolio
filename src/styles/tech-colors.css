@@ -10,7 +10,37 @@ html {
     transition: var(--transition-bg);
   }
 
-  .prisma, .symfony, .threejs{
+  .mariadb {
+    background-color: #3c7f8a;
+    transition: var(--transition-bg);
+  }
+
+  .phpmyadmin {
+    background-color: #a0a3a3;
+    transition: var(--transition-bg);
+  }
+
+  .mysql {
+    background-color: #39b7c6;
+    transition: var(--transition-bg);
+  }
+
+  .figma {
+    background-color: #a31cdf;
+    transition: var(--transition-bg);
+  }
+
+  .office-365 {
+    background-color: #ff6402;
+    transition: var(--transition-bg);
+  }
+
+  .adobe {
+    background-color: #ff3311;
+    transition: var(--transition-bg);
+  }
+
+  .prisma, .symfony, .threejs, .github {
     background-color: #403f3f;
     transition: var(--transition-bg);
   }
@@ -22,7 +52,7 @@ html {
 
   .tailwindcss,
   .typescript,
-  .react {
+  .react, .docker {
     background-color: #32547f;
     transition: var(--transition-bg);
   }
@@ -74,7 +104,31 @@ html.dark {
     background-color: #108e3a;
   }
 
-  .prisma, .symfony, .threejs{
+  .mariadb {
+    background-color: #3c7f8a;
+  }
+
+  .phpmyadmin {
+    background-color: #a0a3a3;
+  }
+
+  .mysql {
+    background-color: #39b7c6;
+  }
+
+  .figma {
+    background-color: #a31cdf;
+  }
+
+  .office-365 {
+    background-color: #ff6402;
+  }
+
+  .adobe {
+    background-color: #ff3311;
+  }
+
+  .prisma, .symfony, .threejs, .github{
     background-color: #403f3f;
   }
 
@@ -84,7 +138,7 @@ html.dark {
 
   .tailwindcss,
   .typescript,
-  .react {
+  .react, .docker {
     background-color: #bddaff;
   }
 
