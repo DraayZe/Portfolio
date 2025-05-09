@@ -47,54 +47,82 @@
     "title": "Projets",
     "projects": [
       {
-        "title": "LPA Event",
+        "title": "LPA Event (projet professionnel)",
         "description": "La primer plataforma para conocer los horarios de las terminales de autobuses interlocales del municipio de Estelí, Nicaragua.",
         "image": "/src/images/projects/esteli-buses-project.jpg",
         "techs": ["WordPress", "HTML", "CSS", "JavaScript"],
-        "code": "Voir le code",
-        "preview": "Voir le site"
+        "preview": "Voir le site",
+        "previewUrl": "https://results.lennyfernet.fr/"
       },
       {
-        "title": "Results",
-        "description": "Lorem ipsum dolor sit amet consectetur. Faucibus quis sociis at sagittis egestas sed volutpat. Arcu pellentesque elit volutpat quam. Id dictum sagittis hendrerit diam viverra velit. Blandit id viverra quis lectus faucibus egestas ipsum turpis.",
-        "image": "/src/images/projects/ana-rangel-portafolio.jpg",
+        "title": "Agenda (projet universitaire)",
+        "description": "Dans cette SAE, nous avons créé un site interactif pour explorer l’influence des critères socio-démographiques sur les élections en France. J’ai conçu une interface originale avec des bulles interactives représentant chaque critère (revenus, âge, genre, etc.), permettant à l’utilisateur de naviguer librement. Ce choix visuel m’a permis de me démarquer des présentations classiques et de renforcer mes compétences en conception web et en design interactif.",
+        "image": "/src/images/projects/agenda.jpg",
         "techs": ["Vue","HTML", "CSS", "JavaScript"],
-        "code": "Código",
-        "preview": "Vista previa"
+        "code": "Voir le code",
+        "codeUrl": "https://github.com/DraayZe/Results",
+        "preview": "Voir le site",
+        "previewUrl": "https://results.lennyfernet.fr/"
       },
       {
-        "title": "Vibropolis",
+        "title": "Vibropolis (projet personnel)",
         "description": "Descubre una herramienta esencial para freelancers y negocios en Nicaragua. Nuestra Calculadora Payoneer Nicaragua te permite calcular de manera precisa y rápida las tarifas y comisiones al recibir pagos internacionales a través de Payoneer. ¡Empieza a usarla hoy y toma el control de tus finanzas!",
-        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
+        "image": "/src/images/projects/results.jpg",
         "techs": [
           "Nuxt",
           "TypeScript",
-          "TailwindCSS"
+          "TailwindCSS",
+          "Prisma"
         ],
-        "code": "Código",
-        "preview": "Vista previa"
+        "code": "Voir le code",
+        "codeUrl": "https://github.com/DraayZe/Results",
+        "preview": "Voir le site",
+        "previewUrl": "https://results.lennyfernet.fr/"
       },
       {
-        "title": "Utopia",
+        "title": "Results (projet universitaire)",
+        "description": "Dans cette SAE, nous avons créé un site interactif pour explorer l’influence des critères socio-démographiques sur les élections en France. J’ai conçu une interface originale avec des bulles interactives représentant chaque critère (revenus, âge, genre, etc.), permettant à l’utilisateur de naviguer librement. Ce choix visuel m’a permis de me démarquer des présentations classiques et de renforcer mes compétences en conception web et en design interactif.",
+        "image": "/src/images/projects/results.jpg",
+        "techs": ["Vue","HTML", "CSS", "JavaScript"],
+        "code": "Voir le code",
+        "codeUrl": "https://github.com/DraayZe/Results",
+        "preview": "Voir le site",
+        "previewUrl": "https://results.lennyfernet.fr/"
+      },
+      {
+        "title": "PokeWorld (projet personnel)",
+        "description": "Dans cette SAE, nous avons créé un site interactif pour explorer l’influence des critères socio-démographiques sur les élections en France. J’ai conçu une interface originale avec des bulles interactives représentant chaque critère (revenus, âge, genre, etc.), permettant à l’utilisateur de naviguer librement. Ce choix visuel m’a permis de me démarquer des présentations classiques et de renforcer mes compétences en conception web et en design interactif.",
+        "image": "/src/images/projects/results.jpg",
+        "techs": ["Vue","HTML", "CSS", "JavaScript"],
+        "code": "Voir le code",
+        "codeUrl": "https://github.com/DraayZe/Results",
+        "preview": "Voir le site",
+        "previewUrl": "https://results.lennyfernet.fr/"
+      },
+      {
+        "title": "Utopia (projet universitaire)",
         "description": "Descubre una herramienta esencial para freelancers y negocios en Nicaragua. Nuestra Calculadora Payoneer Nicaragua te permite calcular de manera precisa y rápida las tarifas y comisiones al recibir pagos internacionales a través de Payoneer. ¡Empieza a usarla hoy y toma el control de tus finanzas!",
         "image": "/src/images/projects/calculadora-payoneer-project.jpg",
         "techs": [
           "Symfony",
-          "Twig",
-          "Sass"
+          "PHP",
+          "Sass",
+          "JavaScript"
         ],
-        "code": "Código",
-        "preview": "Vista previa"
+        "code": "Voir le code",
+        "codeUrl": "https://github.com/DraayZe/Results",
+        "preview": "Voir le site",
+        "previewUrl": "https://results.lennyfernet.fr/"
       }
 
     ]
   },
   "contributions": {
-    "title": "Contribuciones",
+    "title": "Compétences",
     "contributions": [
       {
         "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
+        "alt": "Langages",
         "title": "Advanced Periodontics",
         "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
         "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
@@ -104,7 +132,7 @@
       },
       {
         "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
+        "alt": "Frameworks",
         "title": "Advanced Periodontics",
         "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
         "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
@@ -114,7 +142,7 @@
       },
       {
         "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
+        "alt": "Outils",
         "title": "Advanced Periodontics",
         "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
         "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
@@ -125,13 +153,13 @@
     ]
   },
   "about": {
-    "title": "Sobre mí",
-    "subtitle": "Soy mod de Midudev y ManzDev pero más feliz me siento siendo mod de AnaRangel",
-    "description": "Soy un Desarrollador Web Frontend y WordPress con más de 3 años de experiencia, especializado en crear diseños modernos y optimizar el rendimiento web, con un enfoque en tecnologías como HTML 5, CSS 3, JavaScript ES6+ y WordPress. Manejo frameworks como React y Astro, y soy experto en constructores visuales de WordPress, además de tener un fuerte conocimiento técnico en Core Web Vitals, lo que me convierte en un profesional apasionado y altamente cualificado para cualquier proyecto de desarrollo web."
+    "title": "À propos de moi",
+    "subtitle": "Actuellement à l'IUT de Troyes, je suis à la recherche d'une alternance pour ma dernière année.",
+    "description": "Je suis passionné par le développement web et la création de sites internet. Je suis toujours à la recherche de nouveaux défis et d'opportunités pour apprendre et grandir dans ce domaine."
   },
   "contact": {
-    "title": "¿Listo para dar vida a tus ideas?",
-    "subtitle": "Puedo impulsar tu proyecto o formar parte de tu equipo"
+    "title": "Prêt à donner vie à vos idées ?",
+    "subtitle": "Je peux booster votre projet ou faire partie de votre équipe."
   },
   "footer": {
     "designed": {

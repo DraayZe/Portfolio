@@ -5,6 +5,11 @@ html {
     transition: var(--transition-bg);
   }
 
+  .nuxt, .vue{
+    background-color: #108e3a;
+    transition: var(--transition-bg);
+  }
+
   .css {
     background-color: #324b7f;
     transition: var(--transition-bg);
@@ -58,6 +63,10 @@ html.dark {
   .astro,
   .html {
     background-color: #ffbc96;
+  }
+
+  .nuxt, .vue {
+    background-color: #108e3a;
   }
 
   .css {

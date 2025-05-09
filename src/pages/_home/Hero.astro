@@ -7,7 +7,6 @@ const {
   job_availability: jobAvailability,
   title,
   job_title: jobTitle,
-  description,
   cta
 } = t('hero', {
   returnObjects: true
@@ -23,7 +22,6 @@ const {
     <h1>{title}</h1>
     <section>
       <p set:html={jobTitle} />
-      <p>{description}</p>
     </section>
     <section class="button-container">
       <Button class="filled" href="#">{cta}</Button>
