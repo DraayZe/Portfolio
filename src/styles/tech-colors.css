@@ -20,7 +20,7 @@ html {
     transition: var(--transition-bg);
   }
 
-  .mysql {
+  .mysql, .docker {
     background-color: #39b7c6;
     transition: var(--transition-bg);
   }
@@ -52,7 +52,7 @@ html {
 
   .tailwindcss,
   .typescript,
-  .react, .docker {
+  .react {
     background-color: #32547f;
     transition: var(--transition-bg);
   }
@@ -112,7 +112,7 @@ html.dark {
     background-color: #a0a3a3;
   }
 
-  .mysql {
+  .mysql, .docker {
     background-color: #39b7c6;
   }
 
@@ -138,7 +138,7 @@ html.dark {
 
   .tailwindcss,
   .typescript,
-  .react, .docker {
+  .react {
     background-color: #bddaff;
   }
 

@@ -1,5 +1,5 @@
 {
-  "title": "Portfolio | Lenny Fernet",
+  "title": "Portfolio | Lenny Fernet ",
   "description": "Développeur web junior",
   "navbar": [
     {
@@ -7,12 +7,12 @@
       "href": "#top"
     },
     {
-      "label": "Expérience",
-      "href": "#experience"
+      "label": "Parcours",
+      "href": "#parcours"
     },
     {
-      "label": "Projects",
-      "href": "#projects"
+      "label": "Projets",
+      "href": "#projets"
     },
     {
       "label": "À propos",
@@ -26,7 +26,7 @@
     "cta": "Contactez-moi"
   },
   "experience": {
-    "title": "Parcours scolaire",
+    "title": "Parcours",
     "jobs": {
       "jobs_title": ["BUT MMI", "Baccalauréat général"],
       "jobs_description": [
@@ -155,17 +155,17 @@
         "techs": [
           { "name": "Wordpress", "link": "https://fr.wordpress.org/" },
           { "name": "Docker", "link": "https://www.docker.com/" },
-          { "name": "Figma", "link": "https://www.figma.com/" },
           { "name": "Github", "link": "https://github.com/" },
-          { "name": "Office-365", "link": "https://www.microsoft.com/fr-fr/microsoft-365" },
-          { "name": "Adobe", "link": "https://www.adobe.com/fr/" }
+          { "name": "Figma", "link": "https://www.figma.com/" },
+          { "name": "Adobe", "link": "https://www.adobe.com/fr/" },
+          { "name": "Prisma", "link": "https://www.prisma.io/" }
         ]
       }
     ]
   },
 "about": {
-    "title": "À propos de moi",
-    "subtitle": "Actuellement à l'IUT de Troyes, je suis à la recherche d'une alternance pour ma dernière année.",
+    "title": "À propos",
+    "subtitle": "Actuellement à l'IUT de Troyes, je suis à la recherche d'une alternance pour ma troisième et dernière année.",
     "description": "Je suis passionné par le développement web et la création de sites internet. Je suis toujours à la recherche de nouveaux défis et d'opportunités pour apprendre et grandir dans ce domaine."
   },
   "contact": {
@@ -174,12 +174,8 @@
   },
   "footer": {
     "designed": {
-      "designed_with": "Diseñado con",
-      "designed_by": "por"
-    },
-    "developed": {
-      "developed_with": "Hecho con",
-      "developed_by": "por"
+      "designed_with": "Lenny Fernet",
+      "designed_by": "Tous droits réservés."
     }
   }
 }

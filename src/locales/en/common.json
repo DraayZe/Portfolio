@@ -1,6 +1,6 @@
 {
-  "title": "Web Frontend Developer - Felix Rangel",
-  "description": "Web Frontend Developer from Esteli, Nicaragua. Specialist in HTML5, CSS5, JavaScript ES6+, Node.js and WordPress.",
+  "title": "Portfolio | Lenny Fernet",
+  "description": "Junior Web Developer",
   "navbar": [
     {
       "label": "Home",
@@ -8,7 +8,7 @@
     },
     {
       "label": "Experience",
-      "href": "/en/#work-experience"
+      "href": "/en/#experience"
     },
     {
       "label": "Projects",
@@ -20,28 +20,25 @@
     }
   ],
   "hero": {
-    "job_availability": "Available for work!",
-    "title": "Hello I'm Felix Rangel!",
-    "job_title": "<strong>Web Frontend Developer</strong> from Esteli, Nicaragua.",
-    "description": "Specialist in HTML5, CSS5, JavaScript ES6+, Node.js and WordPress.",
+    "job_availability": "Available for new opportunities",
+    "title": "Hello, I’m Lenny Fernet!",
+    "job_title": "Junior Web Developer",
     "cta": "Contact me"
   },
   "experience": {
-    "title": "Work Experience",
+    "title": "Experience",
     "jobs": {
-      "jobs_title": ["Freelance", "HD Media Nicaragua"],
+      "jobs_title": ["BUT MMI", "General Baccalaureate"],
       "jobs_description": [
         {
-          "title": "Web Frontend Developer",
-          "time": ["Dec 2021"],
-          "description": "I create modern websites with good UI/UX practices. I also manage SEO, security and performance optimizations to increase conversion and visits.",
-          "list": ["Design of websites", "Optimization of websites"]
+          "title": "University Institute of Technology (IUT)",
+          "time": ["Sep 2023"],
+          "description": "First year in Dijon (21) and second year in Troyes (10). Web development courses, graphic production, and communication strategy mainly. Aiming to specialize in web development."
         },
         {
-          "title": "WordPress Web Developer",
-          "time": ["Nov 2020", "Oct 2021"],
-          "description": "I was in charge of developing WordPress websites for clients in Nicaragua, during my time at the agency I contributed my knowledge in web security by increasing measures and decreasing security gaps in WordPress, configuring plugins and setting HTTP headers such as Content-Security-Policy (CSP), Cross-Origin-Resource-Policy (CORP), Cross-Origin-Opener-Policy (COOP), etc.",
-          "list": ["Design of websites", "Optimization of websites"]
+          "title": "Lycée Camille Claudel, Troyes (10)",
+          "time": ["Sep 2020", "Jun 2023"],
+          "description": "Specialties in mathematics and social sciences with the expert mathematics option. Mentioned with honors (12.78 / 20)"
         }
       ]
     }
@@ -50,90 +47,124 @@
     "title": "Projects",
     "projects": [
       {
-        "title": "Estelí Buses",
-        "description": "The first platform to know the bus schedules of interlocal buses in the Estelí municipality, Nicaragua.",
+        "title": "LPA Event (professional project)",
+        "description": "The first platform to check the schedules of intercity bus terminals in Estelí, Nicaragua.",
         "image": "/src/images/projects/esteli-buses-project.jpg",
-        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
-        "code": "Code",
-        "preview": "Preview"
+        "techs": ["WordPress", "HTML", "CSS", "JavaScript"],
+        "preview": "View the site",
+        "previewUrl": "https://results.lennyfernet.fr/"
       },
       {
-        "title": "Portafolio UX Ana Rangel",
-        "description": "Lorem ipsum dolor sit amet consectetur. Faucibus quis sociis at sagittis egestas sed volutpat. Arcu pellentesque elit volutpat quam. Id dictum sagittis hendrerit diam viverra velit. Blandit id viverra quis lectus faucibus egestas ipsum turpis.",
-        "image": "/src/images/projects/ana-rangel-portafolio.jpg",
-        "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
-        "code": "Code",
-        "preview": "Preview"
+        "title": "Agenda (university project)",
+        "description": "In this project, we created an interactive site to explore the influence of socio-demographic criteria on elections in France. I designed an original interface with interactive bubbles representing each criterion (income, age, gender, etc.), allowing the user to freely navigate. This visual choice helped me stand out from classic presentations and reinforced my skills in web design and interactive design.",
+        "image": "/src/images/projects/agenda.jpg",
+        "techs": ["VueJS", "HTML", "TailwindCSS", "JavaScript"],
+        "code": "View the code",
+        "codeUrl": "https://github.com/DraayZe/Results",
+        "preview": "View the site",
+        "previewUrl": "https://results.lennyfernet.fr/"
       },
       {
-        "title": "Calculadora Payoneer Nicaragua",
-        "description": "Discover an essential tool for freelancers and businesses in Nicaragua. Our Calculadora Payoneer Nicaragua allows you to calculate precisely and quickly the rates and commissions when receiving international payments through Payoneer. Start using it today and take control of your finances!",
-        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
-        "techs": [
-          "Astro",
-          "TailwindCSS",
-          "React",
-          "TypeScript",
-          "PWA",
-          "Firebase"
-        ],
-        "code": "Code",
-        "preview": "Preview"
+        "title": "Vibropolis (personal project)",
+        "description": "Discover an essential tool for freelancers and businesses in Nicaragua. Our Payoneer Nicaragua Calculator allows you to accurately and quickly calculate fees and commissions when receiving international payments through Payoneer. Start using it today and take control of your finances!",
+        "image": "/src/images/projects/results.jpg",
+        "techs": ["Nuxt", "TypeScript", "TailwindCSS", "Prisma"],
+        "code": "View the code",
+        "codeUrl": "https://github.com/DraayZe/Results",
+        "preview": "View the site",
+        "previewUrl": "https://results.lennyfernet.fr/"
+      },
+      {
+        "title": "Results (university project)",
+        "description": "In this project, we created an interactive site to explore the influence of socio-demographic criteria on elections in France. I designed an original interface with interactive bubbles representing each criterion (income, age, gender, etc.), allowing the user to freely navigate. This visual choice helped me stand out from classic presentations and reinforced my skills in web design and interactive design.",
+        "image": "/src/images/projects/results.jpg",
+        "techs": ["VueJS", "HTML", "TailwindCSS", "JavaScript"],
+        "code": "View the code",
+        "codeUrl": "https://github.com/DraayZe/Results",
+        "preview": "View the site",
+        "previewUrl": "https://results.lennyfernet.fr/"
+      },
+      {
+        "title": "PokeWorld (personal project)",
+        "description": "This project is a personal effort to practice handling APIs with Vue.js and Tailwind CSS. It's an application that displays detailed Pokémon profiles by fetching their data via an external API. I added a feature to mark Pokémon as favorites and find them in a dedicated section.",
+        "image": "/src/images/projects/pokeworld.jpg",
+        "techs": ["VueJS", "ThreeJS", "HTML", "TailwindCSS", "JavaScript"],
+        "code": "View the code",
+        "codeUrl": "https://github.com/DraayZe/PokeWorld",
+        "preview": "View the site",
+        "previewUrl": "https://pokeworld.lennyfernet.fr/"
+      },
+      {
+        "title": "Utopia (university project)",
+        "description": "I recreated the website of an existing cinema, Utopia Cinema in Pont-Sainte-Marie. First, I analyzed the website to identify its strengths and weaknesses. I then conducted a competitor study and proposed a graphic charter including the logo and visual identity.\n\nAfter imagining the site structure, I created an interactive mockup using Figma.",
+        "image": "/src/images/projects/utopia.jpg",
+        "techs": ["Symfony", "PHP", "Sass", "JavaScript"],
+        "code": "View the code",
+        "codeUrl": "https://github.com/DraayZe/Utopia",
+        "preview": "View the site",
+        "previewUrl": "http://mmi23f04.sae301dev.ovh"
       }
     ]
   },
   "contributions": {
-    "title": "Contributions",
+    "title": "Skills",
     "contributions": [
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repository",
-        "commits": "#"
+        "title": "Languages",
+        "techs": [
+          { "name": "HTML", "link": "https://developer.mozilla.org/en-US/docs/Web/HTML" },
+          { "name": "CSS", "link": "https://developer.mozilla.org/en-US/docs/Web/CSS" },
+          { "name": "Sass", "link": "https://sass-lang.com/" },
+          { "name": "JavaScript", "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
+          { "name": "TypeScript", "link": "https://www.typescriptlang.org/" },
+          { "name": "PHP", "link": "https://www.php.net/" }
+        ]
       },
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repository",
-        "commits": "#"
+        "title": "Frameworks",
+        "techs": [
+          { "name": "VueJS", "link": "https://vuejs.org/" },
+          { "name": "Symfony", "link": "https://symfony.com/" },
+          { "name": "Nuxt", "link": "https://nuxt.com/" },
+          { "name": "TailwindCSS", "link": "https://tailwindcss.com/" },
+          { "name": "ThreeJS", "link": "https://threejs.org/" },
+          { "name": "Astro", "link": "https://astro.build/" }
+        ]
       },
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repository",
-        "commits": "#"
+        "title": "Databases",
+        "techs": [
+          { "name": "MySQL", "link": "https://www.mysql.com/" },
+          { "name": "PhpMyAdmin", "link": "https://www.phpmyadmin.net/" },
+          { "name": "MariaDB", "link": "https://mariadb.org/" }
+        ]
+      },
+      {
+        "title": "Tools",
+        "techs": [
+          { "name": "WordPress", "link": "https://en.wordpress.org/" },
+          { "name": "Docker", "link": "https://www.docker.com/" },
+          { "name": "Github", "link": "https://github.com/" },
+          { "name": "Figma", "link": "https://www.figma.com/" },
+          { "name": "Adobe", "link": "https://www.adobe.com/" },
+          { "name": "Prisma", "link": "https://www.prisma.io/" }
+        ]
       }
     ]
   },
   "about": {
     "title": "About me",
-    "subtitle": "I'm a Midudev and ManzDev mod but I'm happier being an AnaRangel mod",
-    "description": "I am a Frontend Web Developer and WordPress Developer with over 3 years of experience, specialized in creating modern designs and optimizing web performance, with a focus on technologies such as HTML 5, CSS 3, JavaScript ES6+ and WordPress. I handle frameworks such as React and Astro, and I am an expert in WordPress visual builders, in addition to having a strong technical knowledge in Core Web Vitals, which makes me a passionate and highly qualified professional for any web development project."
+    "subtitle": "Currently at IUT Troyes, I am looking for an apprenticeship for my third and final year.",
+    "description": "I am passionate about web development and website creation. I am always looking for new challenges and opportunities to learn and grow in this field."
   },
   "contact": {
-    "title": "Ready to make your dreams come true?",
-    "subtitle": "I can boost your project or be part of your team"
+    "title": "Ready to bring your ideas to life?",
+    "subtitle": "I can boost your project or join your team."
   },
   "footer": {
     "designed": {
-      "designed_with": "Designed with",
-      "designed_by": "by"
-    },
-    "developed": {
-      "developed_with": "Made with",
-      "developed_by": "by"
+      "designed_with": "Lenny Fernet",
+      "designed_by": "All rights reserved."
     }
   }
 }
