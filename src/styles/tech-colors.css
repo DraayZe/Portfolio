@@ -5,8 +5,13 @@ html {
     transition: var(--transition-bg);
   }
 
-  .nuxt, .vue{
+  .nuxt, .vuejs{
     background-color: #108e3a;
+    transition: var(--transition-bg);
+  }
+
+  .prisma, .symfony, .threejs{
+    background-color: #403f3f;
     transition: var(--transition-bg);
   }
 
@@ -65,8 +70,12 @@ html.dark {
     background-color: #ffbc96;
   }
 
-  .nuxt, .vue {
+  .nuxt, .vuejs {
     background-color: #108e3a;
+  }
+
+  .prisma, .symfony, .threejs{
+    background-color: #403f3f;
   }
 
   .css {
