@@ -41,7 +41,12 @@ html {
   }
 
   .prisma, .symfony, .threejs, .github {
-    background-color: #403f3f;
+    background-color: #757373;
+    transition: var(--transition-bg);
+  }
+
+  .twig {
+    background-color: #4d8052;
     transition: var(--transition-bg);
   }
 
@@ -129,7 +134,11 @@ html.dark {
   }
 
   .prisma, .symfony, .threejs, .github{
-    background-color: #403f3f;
+    background-color: #757373;
+  }
+
+  .twig {
+    background-color: #4d8052;
   }
 
   .css {

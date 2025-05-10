@@ -47,72 +47,107 @@
     "title": "Projets",
     "projects": [
       {
-        "title": "LPA Event (projet professionnel)",
+        "title": "LPA Event",
         "description": "La primer plataforma para conocer los horarios de las terminales de autobuses interlocales del municipio de Estelí, Nicaragua.",
         "image": "/src/images/projects/esteli-buses-project.jpg",
-        "techs": ["WordPress", "HTML", "CSS", "JavaScript"],
+        "techs": [
+          { "name": "Wordpress", "link": "https://fr.wordpress.org/" },
+          {"name": "HTML", "link" : "https://developer.mozilla.org/fr/docs/Web/HTML" },
+          { "name": "CSS", "link": "https://developer.mozilla.org/fr/docs/Web/CSS" },
+          { "name": "JavaScript", "link": "https://developer.mozilla.org/fr/docs/Web/JavaScript" }
+        ],
         "preview": "Voir le site",
-        "previewUrl": "https://results.lennyfernet.fr/"
+        "previewUrl": "https://results.lennyfernet.fr/",
+        "type": "Projet professionnel",
+        "typeImage": "/src/icons/work.svg"
       },
       {
-        "title": "Agenda (projet universitaire)",
+        "title": "Agenda",
         "description": "Dans cette SAE, nous avons créé un site interactif pour explorer l’influence des critères socio-démographiques sur les élections en France. J’ai conçu une interface originale avec des bulles interactives représentant chaque critère (revenus, âge, genre, etc.), permettant à l’utilisateur de naviguer librement. Ce choix visuel m’a permis de me démarquer des présentations classiques et de renforcer mes compétences en conception web et en design interactif.",
         "image": "/src/images/projects/agenda.jpg",
-        "techs": ["VueJS","HTML","TailwindCSS", "JavaScript"],
-        "code": "Voir le code",
-        "codeUrl": "https://github.com/DraayZe/Results",
-        "preview": "Voir le site",
-        "previewUrl": "https://results.lennyfernet.fr/"
-      },
-      {
-        "title": "Vibropolis (projet personnel)",
-        "description": "Descubre una herramienta esencial para freelancers y negocios en Nicaragua. Nuestra Calculadora Payoneer Nicaragua te permite calcular de manera precisa y rápida las tarifas y comisiones al recibir pagos internacionales a través de Payoneer. ¡Empieza a usarla hoy y toma el control de tus finanzas!",
-        "image": "/src/images/projects/results.jpg",
         "techs": [
-          "Nuxt",
-          "TypeScript",
-          "TailwindCSS",
-          "Prisma"
+          {"name" : "VueJS", "link": "https://vuejs.org/"},
+          {"name": "HTML", "link" : "https://developer.mozilla.org/fr/docs/Web/HTML" },
+          {"name": "TailwindCSS", "link": "https://tailwindcss.com/"},
+          {"name": "TypeScript", "link": "https://www.typescriptlang.org/"},
+          {"name": "JavaScript", "link": "https://developer.mozilla.org/fr/docs/Web/JavaScript"}
         ],
         "code": "Voir le code",
         "codeUrl": "https://github.com/DraayZe/Results",
         "preview": "Voir le site",
-        "previewUrl": "https://results.lennyfernet.fr/"
+        "previewUrl": "https://results.lennyfernet.fr/",
+        "type": "Projet d'école",
+        "typeImage": "/src/icons/link.svg"
       },
       {
-        "title": "Results (projet universitaire)",
-        "description": "Dans cette SAE, nous avons créé un site interactif pour explorer l’influence des critères socio-démographiques sur les élections en France. J’ai conçu une interface originale avec des bulles interactives représentant chaque critère (revenus, âge, genre, etc.), permettant à l’utilisateur de naviguer librement. Ce choix visuel m’a permis de me démarquer des présentations classiques et de renforcer mes compétences en conception web et en design interactif.",
+        "title": "Vibropolis",
+        "description": "Descubre una herramienta esencial para freelancers y negocios en Nicaragua. Nuestra Calculadora Payoneer Nicaragua te permite calcular de manera precisa y rápida las tarifas y comisiones al recibir pagos internacionales a través de Payoneer. ¡Empieza a usarla hoy y toma el control de tus finanzas!",
         "image": "/src/images/projects/results.jpg",
-        "techs": ["VueJS","HTML", "TailwindCSS", "JavaScript"],
+        "techs": [
+          {"name" : "Nuxt", "link": "https://nuxt.com/"},
+          {"name": "TailwindCSS", "link": "https://tailwindcss.com/"},
+          {"name": "TypeScript", "link": "https://www.typescriptlang.org/"},
+          {"name": "Prisma", "link": "https://www.prisma.io/"}
+        ],
         "code": "Voir le code",
         "codeUrl": "https://github.com/DraayZe/Results",
         "preview": "Voir le site",
-        "previewUrl": "https://results.lennyfernet.fr/"
+        "previewUrl": "https://results.lennyfernet.fr/",
+        "type": "Projet personnel",
+        "typeImage": "/src/icons/sun.svg"
       },
       {
-        "title": "PokeWorld (projet personnel)",
+        "title": "Results",
+        "description": "Dans cette SAE, nous avons créé un site interactif pour explorer l’influence des critères socio-démographiques sur les élections en France. J’ai conçu une interface originale avec des bulles interactives représentant chaque critère (revenus, âge, genre, etc.), permettant à l’utilisateur de naviguer librement. Ce choix visuel m’a permis de me démarquer des présentations classiques et de renforcer mes compétences en conception web et en design interactif.",
+        "image": "/src/images/projects/results.jpg",
+        "techs": [
+          {"name" : "VueJS", "link": "https://vuejs.org/"},
+          {"name": "HTML", "link" : "https://developer.mozilla.org/fr/docs/Web/HTML" },
+          {"name": "TailwindCSS", "link": "https://tailwindcss.com/"},
+          {"name": "JavaScript", "link": "https://developer.mozilla.org/fr/docs/Web/JavaScript"}
+        ],
+        "code": "Voir le code",
+        "codeUrl": "https://github.com/DraayZe/Results",
+        "preview": "Voir le site",
+        "previewUrl": "https://results.lennyfernet.fr/",
+        "type": "Projet d'école",
+        "typeImage": "/src/icons/sun.svg"
+      },
+      {
+        "title": "PokeWorld",
         "description": "Ce projet est un travail personnel visant à m’entraîner à manipuler des API avec le framework Vue.js et le framework CSS Tailwind. Il s’agit d’une application permettant d’afficher des fiches détaillées de Pokémon en récupérant leurs données via une API externe.J'ai ajouté une fonctionnalité permettant de marquer des Pokémons comme favoris et de les retrouver dans une section dédiée.",
         "image": "/src/images/projects/pokeworld.jpg",
-        "techs": ["VueJS", "ThreeJS", "HTML", "TailwindCSS", "JavaScript"],
+        "techs": [
+          {"name" : "VueJS", "link": "https://vuejs.org/"},
+          {"name": "ThreeJS", "link": "https://threejs.org/"},
+          {"name": "HTML", "link" : "https://developer.mozilla.org/fr/docs/Web/HTML" },
+          {"name": "TailwindCSS", "link": "https://tailwindcss.com/"},
+          {"name": "JavaScript", "link": "https://developer.mozilla.org/fr/docs/Web/JavaScript"}
+        ],
         "code": "Voir le code",
         "codeUrl": "https://github.com/DraayZe/PokeWorld",
         "preview": "Voir le site",
-        "previewUrl": "https://pokeworld.lennyfernet.fr/"
+        "previewUrl": "https://pokeworld.lennyfernet.fr/",
+        "type": "Projet personnel",
+        "typeImage": "/src/icons/sun.svg"
       },
       {
-        "title": "Utopia (projet universitaire)",
+        "title": "Utopia",
         "description": "J’ai recréé le site web d’un cinéma existant, le cinéma Utopia à Pont-Sainte-Marie. Dans un premier temps, j’ai analysé le site afin d’en identifier les points forts et les points faibles. J’ai ensuite réalisé une étude de la concurrence et proposé une charte graphique comprenant le logo et l’identité visuelle.\n\nAprès avoir imaginé la structure du site, j’ai conçu une maquette interactive à l’aide de l’application Figma.",
         "image": "/src/images/projects/utopia.jpg",
         "techs": [
-          "Symfony",
-          "PHP",
-          "Sass",
-          "JavaScript"
+          {"name" : "Symfony", "link" :  "https://symfony.com/"},
+          {"name": "PHP", "link": "https://www.php.net/"},
+          {"name" :  "Twig", "link": "https://twig.symfony.com/"},
+          {"name": "Sass", "link": "https://sass-lang.com/"},
+          {"name": "JavaScript", "link": "https://developer.mozilla.org/fr/docs/Web/JavaScript"}
         ],
         "code": "Voir le code",
         "codeUrl": "https://github.com/DraayZe/Utopia",
         "preview": "Voir le site",
-        "previewUrl": "http://mmi23f04.sae301dev.ovh"
+        "previewUrl": "http://mmi23f04.sae301dev.ovh",
+        "type": "Projet d'école",
+        "typeImage": "/src/icons/sun.svg"
       }
 
     ]

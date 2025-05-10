@@ -9,14 +9,18 @@ interface Props {
   alt: string
   title: string
   description: string
-  techs: string[]
+  techs: { name: string, link: string }[]
   code: string
   codeUrl: string
   preview: string
   previewUrl: string
+  type: string
+  typeImage: string
 }
 
-const { src, alt, title, description, techs, code, codeUrl, preview, previewUrl } = Astro.props
+const { src, alt, title, description, techs, code, codeUrl, preview, previewUrl, type, typeImage } = Astro.props
+
+
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
   '/src/images/projects/*.{jpeg,jpg,png}'
@@ -25,6 +29,7 @@ if (!images[src])
   throw new Error(
     `"${src}" no existe en: "/src/images/projects/*.{jpeg,jpg,png}"`
   )
+
 ---
 
 <section class="card-project">
@@ -44,27 +49,39 @@ if (!images[src])
     <h3><a href="#">{title}</a></h3>
     <div class="badges">
       {
-        techs.map((tech) => {
-          const techLower = tech.toLowerCase().replaceAll(' ', '-')
+        techs.map(({ name, link }) => {
+          if (!name || !link) return null // sécurité
 
+          const techLower = name.toLowerCase().replaceAll(' ', '-')
           return (
-            <span class={`badge-tech ${techLower}`}>
-              <Icon name={`techs/${techLower}`} size={24} />
-              <span>{tech}</span>
-            </span>
+            <a
+              href={link}
+              class={`badge-tech ${techLower}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon name={`techs/${techLower}`} size={16} />
+              <span>{name}</span>
+            </a>
           )
         })
       }
     </div>
     <p>{description}</p>
     <div class="links">
+      {codeUrl && (
       <a href={codeUrl} target="_blank" rel="noopener noreferrer">
         <Icon name="github" size={24} />
         {code}
       </a>
+      )}
       <a href={previewUrl} target="_blank" rel="noopener noreferrer">
         <Icon name="link" size={24} />
         {preview}
+      </a>
+      <a>
+        <img src={typeImage} alt={type} width="24" height="24"/>
+        <span>{type}</span>
       </a>
     </div>
   </div>
@@ -103,6 +120,7 @@ if (!images[src])
           text-decoration: none;
           transition: var(--transition-text);
 
+
           &:hover {
             color: var(--text-description-color);
           }
@@ -120,6 +138,12 @@ if (!images[src])
           padding: 4px 12px;
           border-radius: 1000px;
           font-size: 0.875rem;
+          text-decoration: none;
+          color: inherit;
+
+          &:hover {
+            background-color: var(--bg-secondary-color);
+          }
         }
       }
 
