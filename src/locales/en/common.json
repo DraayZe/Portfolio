@@ -11,6 +11,10 @@
       "href": "/en/#experience"
     },
     {
+      "label": "Skills",
+      "href": "#competences"
+    },
+    {
       "label": "Projects",
       "href": "/en/#projects"
     },
@@ -47,62 +51,107 @@
     "title": "Projects",
     "projects": [
       {
-        "title": "LPA Event (professional project)",
-        "description": "The first platform to check the schedules of intercity bus terminals in Estelí, Nicaragua.",
-        "image": "/src/images/projects/esteli-buses-project.jpg",
-        "techs": ["WordPress", "HTML", "CSS", "JavaScript"],
-        "preview": "View the site",
-        "previewUrl": "https://results.lennyfernet.fr/"
+        "title": "LPA Event",
+        "description": "LPA Event is the first professional project I completed. It is a showcase website developed with WordPress for a company specializing in event management. I was involved in every step of the site creation, from design mockups to integration, ensuring a smooth and responsive user experience that met the client’s needs.",
+        "image": "/src/images/projects/lpa-event.jpg",
+        "techs": [
+          { "name": "WordPress", "link": "https://fr.wordpress.org/" },
+          { "name": "HTML", "link": "https://developer.mozilla.org/en/docs/Web/HTML" },
+          { "name": "CSS", "link": "https://developer.mozilla.org/en/docs/Web/CSS" },
+          { "name": "JavaScript", "link": "https://developer.mozilla.org/en/docs/Web/JavaScript" }
+        ],
+        "preview": "View site",
+        "previewUrl": "https://lpa-event.fr/",
+        "type": "Professional project",
+        "typeImage": "/src/icons/work.svg"
       },
       {
-        "title": "Agenda (university project)",
-        "description": "In this project, we created an interactive site to explore the influence of socio-demographic criteria on elections in France. I designed an original interface with interactive bubbles representing each criterion (income, age, gender, etc.), allowing the user to freely navigate. This visual choice helped me stand out from classic presentations and reinforced my skills in web design and interactive design.",
+        "title": "Agenda",
+        "description": "In this academic project, we created an interactive website to explore the influence of socio-demographic criteria on elections in France. I designed an original interface with interactive bubbles representing each criterion (income, age, gender, etc.), allowing users to navigate freely. This visual choice allowed me to stand out from classic presentations and strengthen my skills in web design and interactive development.",
         "image": "/src/images/projects/agenda.jpg",
-        "techs": ["VueJS", "HTML", "TailwindCSS", "JavaScript"],
-        "code": "View the code",
-        "codeUrl": "https://github.com/DraayZe/Results",
-        "preview": "View the site",
-        "previewUrl": "https://results.lennyfernet.fr/"
+        "techs": [
+          { "name": "VueJS", "link": "https://vuejs.org/" },
+          { "name": "HTML", "link": "https://developer.mozilla.org/en/docs/Web/HTML" },
+          { "name": "TailwindCSS", "link": "https://tailwindcss.com/" },
+          { "name": "TypeScript", "link": "https://www.typescriptlang.org/" },
+          { "name": "JavaScript", "link": "https://developer.mozilla.org/en/docs/Web/JavaScript" }
+        ],
+        "code": "View code",
+        "codeUrl": "",
+        "preview": "View site",
+        "previewUrl": "https://sae401.beauget.fr/",
+        "type": "School project",
+        "typeImage": "/src/icons/universite.svg"
       },
       {
-        "title": "Vibropolis (personal project)",
-        "description": "Discover an essential tool for freelancers and businesses in Nicaragua. Our Payoneer Nicaragua Calculator allows you to accurately and quickly calculate fees and commissions when receiving international payments through Payoneer. Start using it today and take control of your finances!",
+        "title": "Vibropolis",
+        "description": "Discover an essential tool for freelancers and businesses in Nicaragua. Our Payoneer Nicaragua Calculator allows you to accurately and quickly calculate fees and commissions when receiving international payments via Payoneer. Start using it today and take control of your finances!",
         "image": "/src/images/projects/results.jpg",
-        "techs": ["Nuxt", "TypeScript", "TailwindCSS", "Prisma"],
-        "code": "View the code",
-        "codeUrl": "https://github.com/DraayZe/Results",
-        "preview": "View the site",
-        "previewUrl": "https://results.lennyfernet.fr/"
+        "techs": [
+          { "name": "Nuxt", "link": "https://nuxt.com/" },
+          { "name": "TailwindCSS", "link": "https://tailwindcss.com/" },
+          { "name": "TypeScript", "link": "https://www.typescriptlang.org/" },
+          { "name": "Prisma", "link": "https://www.prisma.io/" }
+        ],
+        "code": "View code",
+        "codeUrl": "https://github.com/DraayZe/Vibropolis",
+        "preview": "View site",
+        "previewUrl": "",
+        "type": "Personal project",
+        "typeImage": "/src/icons/perso.svg"
       },
       {
-        "title": "Results (university project)",
-        "description": "In this project, we created an interactive site to explore the influence of socio-demographic criteria on elections in France. I designed an original interface with interactive bubbles representing each criterion (income, age, gender, etc.), allowing the user to freely navigate. This visual choice helped me stand out from classic presentations and reinforced my skills in web design and interactive design.",
+        "title": "Results",
+        "description": "In this academic project, we created an interactive website to explore the influence of socio-demographic criteria on elections in France. I designed an original interface with interactive bubbles representing each criterion (income, age, gender, etc.), allowing users to navigate freely. This visual choice allowed me to stand out from classic presentations and strengthen my skills in web design and interactive development.",
         "image": "/src/images/projects/results.jpg",
-        "techs": ["VueJS", "HTML", "TailwindCSS", "JavaScript"],
-        "code": "View the code",
+        "techs": [
+          { "name": "VueJS", "link": "https://vuejs.org/" },
+          { "name": "HTML", "link": "https://developer.mozilla.org/en/docs/Web/HTML" },
+          { "name": "TailwindCSS", "link": "https://tailwindcss.com/" },
+          { "name": "JavaScript", "link": "https://developer.mozilla.org/en/docs/Web/JavaScript" }
+        ],
+        "code": "View code",
         "codeUrl": "https://github.com/DraayZe/Results",
-        "preview": "View the site",
-        "previewUrl": "https://results.lennyfernet.fr/"
+        "preview": "View site",
+        "previewUrl": "https://results.lennyfernet.fr/",
+        "type": "School project",
+        "typeImage": "/src/icons/universite.svg"
       },
       {
-        "title": "PokeWorld (personal project)",
-        "description": "This project is a personal effort to practice handling APIs with Vue.js and Tailwind CSS. It's an application that displays detailed Pokémon profiles by fetching their data via an external API. I added a feature to mark Pokémon as favorites and find them in a dedicated section.",
+        "title": "PokeWorld",
+        "description": "This personal project was created to practice using APIs with the Vue.js framework and Tailwind CSS. It is an app that displays detailed Pokémon cards by fetching data from an external API. I added a feature to mark Pokémon as favorites and find them in a dedicated section.",
         "image": "/src/images/projects/pokeworld.jpg",
-        "techs": ["VueJS", "ThreeJS", "HTML", "TailwindCSS", "JavaScript"],
-        "code": "View the code",
+        "techs": [
+          { "name": "VueJS", "link": "https://vuejs.org/" },
+          { "name": "ThreeJS", "link": "https://threejs.org/" },
+          { "name": "HTML", "link": "https://developer.mozilla.org/en/docs/Web/HTML" },
+          { "name": "TailwindCSS", "link": "https://tailwindcss.com/" },
+          { "name": "JavaScript", "link": "https://developer.mozilla.org/en/docs/Web/JavaScript" }
+        ],
+        "code": "View code",
         "codeUrl": "https://github.com/DraayZe/PokeWorld",
-        "preview": "View the site",
-        "previewUrl": "https://pokeworld.lennyfernet.fr/"
+        "preview": "View site",
+        "previewUrl": "https://pokeworld.lennyfernet.fr/",
+        "type": "Personal project",
+        "typeImage": "/src/icons/perso.svg"
       },
       {
-        "title": "Utopia (university project)",
-        "description": "I recreated the website of an existing cinema, Utopia Cinema in Pont-Sainte-Marie. First, I analyzed the website to identify its strengths and weaknesses. I then conducted a competitor study and proposed a graphic charter including the logo and visual identity.\n\nAfter imagining the site structure, I created an interactive mockup using Figma.",
+        "title": "Utopia",
+        "description": "I recreated the website of an existing cinema, Utopia in Pont-Sainte-Marie. First, I analyzed the site to identify its strengths and weaknesses. I then conducted a competitor study and proposed a graphic charter including the logo and visual identity.\n\nAfter imagining the site structure, I designed an interactive mockup using Figma.",
         "image": "/src/images/projects/utopia.jpg",
-        "techs": ["Symfony", "PHP", "Sass", "JavaScript"],
-        "code": "View the code",
+        "techs": [
+          { "name": "Symfony", "link": "https://symfony.com/" },
+          { "name": "PHP", "link": "https://www.php.net/" },
+          { "name": "Twig", "link": "https://twig.symfony.com/" },
+          { "name": "Sass", "link": "https://sass-lang.com/" },
+          { "name": "JavaScript", "link": "https://developer.mozilla.org/en/docs/Web/JavaScript" }
+        ],
+        "code": "View code",
         "codeUrl": "https://github.com/DraayZe/Utopia",
-        "preview": "View the site",
-        "previewUrl": "http://mmi23f04.sae301dev.ovh"
+        "preview": "View site",
+        "previewUrl": "http://mmi23f04.sae301dev.ovh",
+        "type": "School project",
+        "typeImage": "/src/icons/universite.svg"
       }
     ]
   },
