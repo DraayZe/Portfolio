@@ -34,7 +34,6 @@ if (!images[src])
 
 <section class="card-project">
   <div>
-    <a href="#">
       <Picture
         src={images[src]()}
         alt={alt}
@@ -43,10 +42,9 @@ if (!images[src])
         formats={['avif', 'webp']}
         fallbackFormat="webp"
       />
-    </a>
   </div>
   <div class="description">
-    <h3><a href="#">{title}</a></h3>
+    <h3>{title}</h3>
     <div class="badges">
       {
         techs.map(({ name, link }) => {
@@ -75,10 +73,12 @@ if (!images[src])
         {code}
       </a>
       )}
-      <a href={previewUrl} target="_blank" rel="noopener noreferrer">
-        <Icon name="link" size={24} />
-        {preview}
-      </a>
+      {preview && (
+        <a href={previewUrl} target="_blank" rel="noopener noreferrer">
+          <Icon name="link" size={24} />
+          {preview}
+        </a>
+      )}
       <a>
         <img src={typeImage} alt={type} width="24" height="24"/>
         <span>{type}</span>

@@ -60,10 +60,12 @@
           { "name": "CSS", "link": "https://developer.mozilla.org/en/docs/Web/CSS" },
           { "name": "JavaScript", "link": "https://developer.mozilla.org/en/docs/Web/JavaScript" }
         ],
+        "code": "",
+        "codeUrl": "",
         "preview": "View site",
         "previewUrl": "https://lpa-event.fr/",
         "type": "Professional project",
-        "typeImage": "/src/icons/work.svg"
+        "typeImage": "/favicons/work.svg"
       },
       {
         "title": "Agenda",
@@ -76,17 +78,17 @@
           { "name": "TypeScript", "link": "https://www.typescriptlang.org/" },
           { "name": "JavaScript", "link": "https://developer.mozilla.org/en/docs/Web/JavaScript" }
         ],
-        "code": "View code",
+        "code": "",
         "codeUrl": "",
         "preview": "View site",
         "previewUrl": "https://sae401.beauget.fr/",
         "type": "School project",
-        "typeImage": "/src/icons/universite.svg"
+        "typeImage": "/favicons/universite.svg"
       },
       {
         "title": "Vibropolis",
         "description": "Discover an essential tool for freelancers and businesses in Nicaragua. Our Payoneer Nicaragua Calculator allows you to accurately and quickly calculate fees and commissions when receiving international payments via Payoneer. Start using it today and take control of your finances!",
-        "image": "/src/images/projects/results.jpg",
+        "image": "/src/images/projects/vibropolis.jpg",
         "techs": [
           { "name": "Nuxt", "link": "https://nuxt.com/" },
           { "name": "TailwindCSS", "link": "https://tailwindcss.com/" },
@@ -95,10 +97,10 @@
         ],
         "code": "View code",
         "codeUrl": "https://github.com/DraayZe/Vibropolis",
-        "preview": "View site",
+        "preview": "",
         "previewUrl": "",
         "type": "Personal project",
-        "typeImage": "/src/icons/perso.svg"
+        "typeImage": "/favicons/perso.svg"
       },
       {
         "title": "Results",
@@ -115,7 +117,7 @@
         "preview": "View site",
         "previewUrl": "https://results.lennyfernet.fr/",
         "type": "School project",
-        "typeImage": "/src/icons/universite.svg"
+        "typeImage": "/favicons/universite.svg"
       },
       {
         "title": "PokeWorld",
@@ -133,7 +135,7 @@
         "preview": "View site",
         "previewUrl": "https://pokeworld.lennyfernet.fr/",
         "type": "Personal project",
-        "typeImage": "/src/icons/perso.svg"
+        "typeImage": "/favicons/perso.svg"
       },
       {
         "title": "Utopia",
@@ -146,12 +148,12 @@
           { "name": "Sass", "link": "https://sass-lang.com/" },
           { "name": "JavaScript", "link": "https://developer.mozilla.org/en/docs/Web/JavaScript" }
         ],
-        "code": "View code",
-        "codeUrl": "https://github.com/DraayZe/Utopia",
+        "code": "",
+        "codeUrl": "",
         "preview": "View site",
         "previewUrl": "http://mmi23f04.sae301dev.ovh",
         "type": "School project",
-        "typeImage": "/src/icons/universite.svg"
+        "typeImage": "/favicons/universite.svg"
       }
     ]
   },

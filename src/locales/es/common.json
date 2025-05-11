@@ -106,12 +106,12 @@
           { "name": "CSS", "link": "https://developer.mozilla.org/fr/docs/Web/CSS" },
           { "name": "JavaScript", "link": "https://developer.mozilla.org/fr/docs/Web/JavaScript" }
         ],
-        "code": "undefined",
-        "codeUrl": "undefined",
+        "code": "",
+        "codeUrl": "",
         "preview": "Voir le site",
         "previewUrl": "https://lpa-event.fr/",
         "type": "Projet professionnel",
-        "typeImage": "/src/icons/work.svg"
+        "typeImage": "/favicons/work.svg"
       },
       {
         "title": "Agenda",
@@ -124,17 +124,17 @@
           {"name": "TypeScript", "link": "https://www.typescriptlang.org/"},
           {"name": "JavaScript", "link": "https://developer.mozilla.org/fr/docs/Web/JavaScript"}
         ],
-        "code": "Voir le code",
-        "codeUrl": "undefined",
+        "code": "",
+        "codeUrl": "",
         "preview": "Voir le site",
         "previewUrl": "https://sae401.beauget.fr/",
         "type": "Projet d'école",
-        "typeImage": "/src/icons/universite.svg"
+        "typeImage": "/favicons/universite.svg"
       },
       {
         "title": "Vibropolis",
         "description": "Descubre una herramienta esencial para freelancers y negocios en Nicaragua. Nuestra Calculadora Payoneer Nicaragua te permite calcular de manera precisa y rápida las tarifas y comisiones al recibir pagos internacionales a través de Payoneer. ¡Empieza a usarla hoy y toma el control de tus finanzas!",
-        "image": "/src/images/projects/results.jpg",
+        "image": "/src/images/projects/vibropolis.jpg",
         "techs": [
           {"name" : "Nuxt", "link": "https://nuxt.com/"},
           {"name": "TailwindCSS", "link": "https://tailwindcss.com/"},
@@ -143,10 +143,10 @@
         ],
         "code": "Voir le code",
         "codeUrl": "https://github.com/DraayZe/Vibropolis",
-        "preview": "Voir le site",
-        "previewUrl": "undefined",
+        "preview": "",
+        "previewUrl": "",
         "type": "Projet personnel",
-        "typeImage": "/src/icons/perso.svg"
+        "typeImage": "/favicons/perso.svg"
       },
       {
         "title": "Results",
@@ -163,7 +163,7 @@
         "preview": "Voir le site",
         "previewUrl": "https://results.lennyfernet.fr/",
         "type": "Projet d'école",
-        "typeImage": "/src/icons/universite.svg"
+        "typeImage": "/favicons/universite.svg"
       },
       {
         "title": "PokeWorld",
@@ -181,7 +181,7 @@
         "preview": "Voir le site",
         "previewUrl": "https://pokeworld.lennyfernet.fr/",
         "type": "Projet personnel",
-        "typeImage": "/src/icons/perso.svg"
+        "typeImage": "/favicons/perso.svg"
       },
       {
         "title": "Utopia",
@@ -190,16 +190,16 @@
         "techs": [
           {"name" : "Symfony", "link" :  "https://symfony.com/"},
           {"name": "PHP", "link": "https://www.php.net/"},
-          {"name" :  "Twig", "link": "https://twig.symfony.com/"},
+          {"name" : "Twig", "link": "https://twig.symfony.com/"},
           {"name": "Sass", "link": "https://sass-lang.com/"},
           {"name": "JavaScript", "link": "https://developer.mozilla.org/fr/docs/Web/JavaScript"}
         ],
-        "code": "Voir le code",
-        "codeUrl": "https://github.com/DraayZe/Utopia",
+        "code": "",
+        "codeUrl": "",
         "preview": "Voir le site",
         "previewUrl": "http://mmi23f04.sae301dev.ovh",
         "type": "Projet d'école",
-        "typeImage": "/src/icons/universite.svg"
+        "typeImage": "/favicons/universite.svg"
       }
 
     ]
