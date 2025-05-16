@@ -108,8 +108,8 @@
         ],
         "code": "",
         "codeUrl": "",
-        "preview": "Voir le site",
-        "previewUrl": "https://lpa-event.fr/",
+        "preview": "En cours de développement",
+        "previewUrl": "",
         "type": "Projet professionnel",
         "typeImage": "/favicons/work.svg"
       },
@@ -133,7 +133,7 @@
       },
       {
         "title": "Vibropolis",
-        "description": "Descubre una herramienta esencial para freelancers y negocios en Nicaragua. Nuestra Calculadora Payoneer Nicaragua te permite calcular de manera precisa y rápida las tarifas y comisiones al recibir pagos internacionales a través de Payoneer. ¡Empieza a usarla hoy y toma el control de tus finanzas!",
+        "description": "Vibropolis est un site web fictif que j’ai conçu pour un festival de rap. L’utilisateur peut y découvrir les artistes programmés sur trois dates différentes, et a également la possibilité de réserver ses billets en ligne.",
         "image": "/src/images/projects/vibropolis.jpg",
         "techs": [
           {"name" : "Nuxt", "link": "https://nuxt.com/"},
