@@ -37,7 +37,7 @@
         {
           "title": "Institut Universitaire de Technologie (IUT)",
           "time": ["Sep 2023"],
-          "description": "Première année à Dijon (21) et deuxième année à Troyes (10).\nCours de développement web, production graphique et stratégie de communication principalement. Souhaitant se spécialiser dans le développement web."
+          "description": "Première année à Dijon (21), deuxième et troisième années à Troyes (10).\nCours de développement web, production graphique et stratégie de communication principalement. Souhaitant se spécialiser dans le développement web."
         },
         {
           "title": "Lycée Camille Claudel, Troyes (10)",
@@ -143,8 +143,8 @@
         ],
         "code": "Voir le code",
         "codeUrl": "https://github.com/DraayZe/Vibropolis",
-        "preview": "",
-        "previewUrl": "",
+        "preview": "Voir le site",
+        "previewUrl": "https://vibro.lennyfernet.fr/",
         "type": "Projet personnel",
         "typeImage": "/favicons/perso.svg"
       },
